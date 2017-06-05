@@ -12,4 +12,9 @@ describe('App', () => {
     // Use 'expect' to make an assertion about a target
     expect(component.find('.comment-box')).to.exist;
   });
+
+  it('shows a comment list', () => {
+    // Use 'expect' to make an assertion about a target
+    expect(component.find('.comment-list')).to.exist;
+  });
 });
